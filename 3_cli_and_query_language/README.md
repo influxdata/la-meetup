@@ -2,7 +2,14 @@
 
 * Working with the InfluxDB CLI
 * The InfluxDB Query Language
-* Querying Data (Project)
+
+## By the end of this section students will be able to...
+
+* Query InfluxDB using the InfluxDB CLI.
+* Understand the structure of the data that is returned from a query.
+* Articulate what InfluxQL can do.
+* Create novel queries of their own.
 
 ## Quiz (20 min) 12:00-12:20
+* Querying Data (Project)
 
