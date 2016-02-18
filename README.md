@@ -46,7 +46,7 @@
 * The InfluxDB Configuration file
 * Backup and Restore
 
-### 5. Schema design (45-60 min) 2:00-3:00
+### 5. Schema design (60-75 min) 2:00-3:00
 * A little bit deeper with the InfluxDB Data Model (RP's and Databases)
 * Continuous Queries and Retention policies
 * Schema Design (Project)
