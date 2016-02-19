@@ -26,6 +26,6 @@ The data that we've loaded in the data for the SP500 from 2013, but where the ti
 
 # 3. What company had the highest opening price in the last 10 days?
 
-# 4. What was the highest opening price for each of the last 10 days and Which company had this price?
+# 4. What was the highest opening price for each of the last 10 days and which company had this price?
 
 # 5. How many of the last 30 days did the price of Google's stock (ticker='GOOG') go above $500?

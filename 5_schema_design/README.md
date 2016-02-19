@@ -16,3 +16,36 @@
 ## Quiz (20 min) 3:00-3:20
 
 * Design a schema
+
+# 1. What would happen if I wrote the following points into InfluxDB? And why does it happen?
+```
+mem,location=us-west host="server1",value=0.5 1444234986000
+mem,location=us-west host="server2",value=4 1444234982000
+mem,location=us-west host="server2",value=1 1444234982000
+```
+
+# 2. What is the problem with having a large number of independent tags?
+
+```
+random,week=10,weekday=tues,meowmix=k,birthday=july,...,host=api0 value=2 144423498200
+```
+# 3. What is a retention policy?
+
+# 4. What is the relationship between retention policies, databases, and series.
+
+# 5. What is a continuous query? How are they used?
+
+# 6. Design a schema
+
+The following information is emitted to InfluxDB every 10 seconds from 10,000 unique devices.
+
+* zipcode
+* city
+* latitude
+* longitude
+* device_id
+* smog_level
+* co2_ppm
+* lead
+* so2_level
+
