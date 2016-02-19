@@ -37,15 +37,35 @@ random,week=10,weekday=tues,meowmix=k,birthday=july,...,host=api0 value=2 144423
 
 # 6. Design a schema
 
+In the CLI, create and use a database called `air_data`.
+
 The following information is emitted to InfluxDB every 10 seconds from 10,000 unique devices.
 
-* zipcode
-* city
-* latitude
-* longitude
-* device_id
-* smog_level
-* co2_ppm
-* lead
-* so2_level
+* `zipcode`
+* `city`
+* `latitude`
+* `longitude`
+* `device_id`
+* `smog_level`
+* `co2_ppm`
+* `lead`
+* `so2_level`
 
+The most important queries I have are:
+
+```sql
+SELECT median(lead) FROM polutants WHERE time > now() - 1d GROUP BY city
+
+SELECT mean(co2_ppm) FROM polutants WHERE time > now() - 1d AND city='sf' GROUP BY device_id
+
+SELECT max(smog_level) FROM polutants WHERE time > now() - 1d AND city='nyc' GROUP BY zipcode
+
+SELECT min(so2_level) FROM polutants WHERE time > now() - 1d AND city='nyc' GROUP BY zipcode
+```
+
+## 6A. Design a schema for the data above (e.g. What values should be tags, fields, etc).
+Note that the measurement name is `polutants`.
+
+## 6B. Create a 24 hour retention policy that is the `DEFAULT` retention policy for the database.
+
+## 6C. Create a continuous query that moves data from the 24 hour rentention policy to the `"default"` retention policy.
