@@ -12,11 +12,10 @@
 
 ## Quiz 4:30-4:50
 
-* Instructors will assign groups of 2-3
+* Instructors will assign groups of 3 (there will be one group of 2)
 * Once groups are formed we will hand out IPs to AWS instances
 * Follow the cluster setup instructions to get a cluster setup
 * If you have any problems during the setup please call over an instructor
 
 ## General Q&A (40 min) 4:50-5:30
-
 

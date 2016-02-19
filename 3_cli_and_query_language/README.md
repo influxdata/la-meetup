@@ -15,8 +15,13 @@
 
 
 ## Write the data to your instance.
+```
+$ curl https://s3-us-west-2.amazonaws.com/influx-sample-data/stocks.txt > stocks.txt
+$ influx -import -path=stocks.txt -precision=s
+```
 
 The data that we've loaded in the data for the SP500 from 2013, but where the timestamps have been adjusted to the current time.
+
 
 # 1. What is the schema of the data we installed on your instance?
 

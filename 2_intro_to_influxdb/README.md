@@ -14,11 +14,9 @@
 ## Quiz (20 min) 10:30-10:50
 * Questions about the InfluxDB data model
 
-
 # 1. What is the difference between regular and irregular time series?
 
-# 2. What are the names of the InfluxDB components on the graph below? Additionally, please describe the roles of each of the components.
-PICUTRE OF GRAPH HERE
+# 2. What are the names of the InfluxDB components on the graph on the screen? Additionally, please describe the roles of each of the components.
 
 # 3. What types of values can be stored as tag values?
 
@@ -34,10 +32,5 @@ PICUTRE OF GRAPH HERE
 
 # 9. What is a series?
 
-# 10. How many series are there in the examples below?
-INSERT EXAMPLES HERE
+# 10. Express a point in line protocol that has *measurement* `rainfall`, 3 *tags* `location=sf`, `meter_id=5a`, and `weather=sunny`, and 2 *fields* with keys `total` (float64), `is_raining` (bool).
 
-# 11. Express a point in line protocol that has *measurement* `rainfall`, 3 *tags* `location=sf`, `meter_id=5a`, and `weather=sunny`, and 2 *fields* with keys `total` (float64), `is_raining` (bool).
-
-# 12. What would happen if I wrote the following points below?
-ADD HERE
